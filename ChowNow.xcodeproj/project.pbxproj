@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		DF433F50206B468100299824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF433F4F206B468100299824 /* Assets.xcassets */; };
 		DF433F53206B468100299824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF433F51206B468100299824 /* LaunchScreen.storyboard */; };
 		DF433F5E206B468100299824 /* ChowNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF433F5D206B468100299824 /* ChowNowTests.swift */; };
+		DF433F6A206B46ED00299824 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF433F69206B46ED00299824 /* CoreLocation.framework */; };
+		DF433F6C206B46FE00299824 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF433F6B206B46FE00299824 /* ImageIO.framework */; };
+		DF433F6E206B472600299824 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF433F6D206B472600299824 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		DF433F59206B468100299824 /* ChowNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChowNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF433F5D206B468100299824 /* ChowNowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChowNowTests.swift; sourceTree = "<group>"; };
 		DF433F5F206B468100299824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF433F69206B46ED00299824 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DF433F6B206B46FE00299824 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		DF433F6D206B472600299824 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF433F6E206B472600299824 /* MapKit.framework in Frameworks */,
+				DF433F6C206B46FE00299824 /* ImageIO.framework in Frameworks */,
+				DF433F6A206B46ED00299824 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,8 +75,10 @@
 				DF433F43206B468100299824 /* ChowNow */,
 				DF433F5C206B468100299824 /* ChowNowTests */,
 				DF433F42206B468100299824 /* Products */,
+				DF433F68206B46EC00299824 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		DF433F42206B468100299824 /* Products */ = {
 			isa = PBXGroup;
@@ -100,6 +111,16 @@
 				DF433F5F206B468100299824 /* Info.plist */,
 			);
 			path = ChowNowTests;
+			sourceTree = "<group>";
+		};
+		DF433F68206B46EC00299824 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF433F6D206B472600299824 /* MapKit.framework */,
+				DF433F6B206B46FE00299824 /* ImageIO.framework */,
+				DF433F69206B46ED00299824 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +167,10 @@
 		DF433F39206B468100299824 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Kelsey Makeba Jewell";
+				ORGANIZATIONNAME = "Kelsey Jewell";
 				TargetAttributes = {
 					DF433F40206B468100299824 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -162,7 +184,7 @@
 				};
 			};
 			buildConfigurationList = DF433F3C206B468100299824 /* Build configuration list for PBXProject "ChowNow" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -414,6 +436,7 @@
 				DF433F64206B468100299824 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF433F65206B468100299824 /* Build configuration list for PBXNativeTarget "ChowNowTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +445,7 @@
 				DF433F67206B468100299824 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
