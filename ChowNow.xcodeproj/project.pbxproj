@@ -18,6 +18,8 @@
 		DF433F6A206B46ED00299824 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF433F69206B46ED00299824 /* CoreLocation.framework */; };
 		DF433F6C206B46FE00299824 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF433F6B206B46FE00299824 /* ImageIO.framework */; };
 		DF433F6E206B472600299824 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF433F6D206B472600299824 /* MapKit.framework */; };
+		DF68E7B320A2A42300B20550 /* RangeSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68E7B220A2A42300B20550 /* RangeSelectorViewController.swift */; };
+		DF68E7B520A2A6D800B20550 /* LocationSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68E7B420A2A6D800B20550 /* LocationSelectorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		DF433F69206B46ED00299824 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		DF433F6B206B46FE00299824 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		DF433F6D206B472600299824 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DF68E7B220A2A42300B20550 /* RangeSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSelectorViewController.swift; sourceTree = "<group>"; };
+		DF68E7B420A2A6D800B20550 /* LocationSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSelectorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 		DF433F43206B468100299824 /* ChowNow */ = {
 			isa = PBXGroup;
 			children = (
+				DF68E7B420A2A6D800B20550 /* LocationSelectorViewController.swift */,
 				DF433F44206B468100299824 /* AppDelegate.swift */,
 				DF433F46206B468100299824 /* RootViewController.swift */,
 				DF433F48206B468100299824 /* DataViewController.swift */,
@@ -100,6 +105,7 @@
 				DF433F4F206B468100299824 /* Assets.xcassets */,
 				DF433F51206B468100299824 /* LaunchScreen.storyboard */,
 				DF433F54206B468100299824 /* Info.plist */,
+				DF68E7B220A2A42300B20550 /* RangeSelectorViewController.swift */,
 			);
 			path = ChowNow;
 			sourceTree = "<group>";
@@ -227,6 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF68E7B520A2A6D800B20550 /* LocationSelectorViewController.swift in Sources */,
+				DF68E7B320A2A42300B20550 /* RangeSelectorViewController.swift in Sources */,
 				DF433F47206B468100299824 /* RootViewController.swift in Sources */,
 				DF433F4B206B468100299824 /* ModelController.swift in Sources */,
 				DF433F49206B468100299824 /* DataViewController.swift in Sources */,
