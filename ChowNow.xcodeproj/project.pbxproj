@@ -20,6 +20,16 @@
 		DF433F6E206B472600299824 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF433F6D206B472600299824 /* MapKit.framework */; };
 		DF68E7B320A2A42300B20550 /* RangeSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68E7B220A2A42300B20550 /* RangeSelectorViewController.swift */; };
 		DF68E7B520A2A6D800B20550 /* LocationSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68E7B420A2A6D800B20550 /* LocationSelectorViewController.swift */; };
+		DF68E7D220B527F400B20550 /* sushi.png in Resources */ = {isa = PBXBuildFile; fileRef = DF68E7D120B527F400B20550 /* sushi.png */; };
+		DF68E7D420B528C400B20550 /* pho.png in Resources */ = {isa = PBXBuildFile; fileRef = DF68E7D320B528C400B20550 /* pho.png */; };
+		DF68E7D620B528D700B20550 /* salad.png in Resources */ = {isa = PBXBuildFile; fileRef = DF68E7D520B528D700B20550 /* salad.png */; };
+		DF68E7D820B528DF00B20550 /* steak.png in Resources */ = {isa = PBXBuildFile; fileRef = DF68E7D720B528DF00B20550 /* steak.png */; };
+		DF68E7DA20B528EC00B20550 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = DF68E7D920B528EC00B20550 /* pizza.png */; };
+		DF68E7DC20B528F500B20550 /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = DF68E7DB20B528F500B20550 /* egg.png */; };
+		DF68E7DE20B528FA00B20550 /* cupcake.png in Resources */ = {isa = PBXBuildFile; fileRef = DF68E7DD20B528FA00B20550 /* cupcake.png */; };
+		DF68E7E020B528FF00B20550 /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = DF68E7DF20B528FF00B20550 /* burger.png */; };
+		DF68E7E220B5290700B20550 /* spaghetti.png in Resources */ = {isa = PBXBuildFile; fileRef = DF68E7E120B5290700B20550 /* spaghetti.png */; };
+		DF68E7E420B5297000B20550 /* taco.png in Resources */ = {isa = PBXBuildFile; fileRef = DF68E7E320B5297000B20550 /* taco.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +60,16 @@
 		DF433F6D206B472600299824 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		DF68E7B220A2A42300B20550 /* RangeSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSelectorViewController.swift; sourceTree = "<group>"; };
 		DF68E7B420A2A6D800B20550 /* LocationSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSelectorViewController.swift; sourceTree = "<group>"; };
+		DF68E7D120B527F400B20550 /* sushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sushi.png; path = ChowNow/sushi.png; sourceTree = SOURCE_ROOT; };
+		DF68E7D320B528C400B20550 /* pho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pho.png; sourceTree = "<group>"; };
+		DF68E7D520B528D700B20550 /* salad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salad.png; sourceTree = "<group>"; };
+		DF68E7D720B528DF00B20550 /* steak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steak.png; sourceTree = "<group>"; };
+		DF68E7D920B528EC00B20550 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
+		DF68E7DB20B528F500B20550 /* egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg.png; sourceTree = "<group>"; };
+		DF68E7DD20B528FA00B20550 /* cupcake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cupcake.png; sourceTree = "<group>"; };
+		DF68E7DF20B528FF00B20550 /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger.png; sourceTree = "<group>"; };
+		DF68E7E120B5290700B20550 /* spaghetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaghetti.png; sourceTree = "<group>"; };
+		DF68E7E320B5297000B20550 /* taco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taco.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +116,7 @@
 		DF433F43206B468100299824 /* ChowNow */ = {
 			isa = PBXGroup;
 			children = (
+				DF68E7B620B51D9C00B20550 /* Resources */,
 				DF68E7B420A2A6D800B20550 /* LocationSelectorViewController.swift */,
 				DF433F44206B468100299824 /* AppDelegate.swift */,
 				DF433F46206B468100299824 /* RootViewController.swift */,
@@ -127,6 +148,31 @@
 				DF433F69206B46ED00299824 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF68E7B620B51D9C00B20550 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF68E7B720B51DB500B20550 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DF68E7B720B51DB500B20550 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DF68E7D520B528D700B20550 /* salad.png */,
+				DF68E7D920B528EC00B20550 /* pizza.png */,
+				DF68E7D720B528DF00B20550 /* steak.png */,
+				DF68E7D120B527F400B20550 /* sushi.png */,
+				DF68E7E120B5290700B20550 /* spaghetti.png */,
+				DF68E7DF20B528FF00B20550 /* burger.png */,
+				DF68E7E320B5297000B20550 /* taco.png */,
+				DF68E7D320B528C400B20550 /* pho.png */,
+				DF68E7DD20B528FA00B20550 /* cupcake.png */,
+				DF68E7DB20B528F500B20550 /* egg.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +261,17 @@
 			files = (
 				DF433F53206B468100299824 /* LaunchScreen.storyboard in Resources */,
 				DF433F50206B468100299824 /* Assets.xcassets in Resources */,
+				DF68E7E220B5290700B20550 /* spaghetti.png in Resources */,
 				DF433F4E206B468100299824 /* Main.storyboard in Resources */,
+				DF68E7E420B5297000B20550 /* taco.png in Resources */,
+				DF68E7DC20B528F500B20550 /* egg.png in Resources */,
+				DF68E7DE20B528FA00B20550 /* cupcake.png in Resources */,
+				DF68E7D420B528C400B20550 /* pho.png in Resources */,
+				DF68E7D820B528DF00B20550 /* steak.png in Resources */,
+				DF68E7DA20B528EC00B20550 /* pizza.png in Resources */,
+				DF68E7E020B528FF00B20550 /* burger.png in Resources */,
+				DF68E7D620B528D700B20550 /* salad.png in Resources */,
+				DF68E7D220B527F400B20550 /* sushi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
